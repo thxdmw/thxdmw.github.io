@@ -79,35 +79,6 @@ slogan = ''                               # 联系标语，不想显示，可以
 target = '_self'                          # 定义左侧快捷导航链接打开方式，_blank 在新标签页 _self 在当前标签页
 ship = ''                                 # 联系栏 icon ，允许自定义该图标链接（/ship 为外链的个人定制化搜索页）；隐藏，设置为 '' 空即可
 
-# https://utteranc.es/
-# 在开发环境下（http://localhost:1313/），不再启用评论插件，
-# 如果想在开发环境下启用它，修改服务端口即可，如下
-# hugo server -p=1314
-[params.utterances]
-active = false                            # 是否启用评论插件
-repo = "loveminimal/comment"              # 输入你的仓库名称
-issueTerm = "pathname"
-theme = "github-light"
-crossorigin = "anonymous"
-
-# 在开发环境下（http://localhost:1313/），不再启用评论插件，
-# 如果想在开发环境下启用它，修改服务端口即可，如下
-# hugo server -p=1314
-# ---------
-# 在 https://giscus.app/ 中，选择配置后会自动生成，如 data-*
-# 默认开启 data-loading="lazy"
-[params.giscus]
-active = true                             # 是否启用评论插件
-repo = "loveminimal/comment"              # 输入你的仓库名称
-repoId = "R_kgDOJNJQ8g"
-category="General"
-categoryId="DIC_kwDOJNJQ8s4CYl0m"
-mapping = "title"
-inputPosition = "bottom"
-theme = "noborder_light"
-crossorigin = "anonymous"
-lang = "zh-CN"
-
 # 以下为 Markdown 解析擎的一些设置，
 # 建议保持不变
 [markup]

@@ -5,16 +5,6 @@
     <link>https://thxdmw.github.io/</link>
     <description>Recent content on 布丁</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:55:46 +0800</lastBuildDate><atom:link href="https://thxdmw.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>hugo</title>
-      <link>https://thxdmw.github.io/blog/hugo/</link>
-      <pubDate>Sat, 07 Dec 2024 00:55:46 +0800</pubDate>
-      
-      <guid>https://thxdmw.github.io/blog/hugo/</guid>
-      <description>1. 仓库代码初始化 Hugo 中文网 1 2 3 4 5 git init git add . git commit -m &amp;#34;Initial commit&amp;#34; git remote add origin 仓库地址 git push -u origin master 当使用git clone下来的工程中带有submodule时，初始的时候，subm</description>
-    </item>
-    
+    <language>zh-cn</language><atom:link href="https://thxdmw.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
